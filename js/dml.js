@@ -17,7 +17,7 @@ Surge、QuantumultX、Loon、Shadowrocket:
 [Script]
 cron "0 6 * * *" script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/dml.js,timeout=300, tag=达美乐披萨
 
-http-request ^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/dml.js,requires-body=true, timeout=60, tag=达美乐披萨获取token
+http-request ^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/dml.js, requires-body=true, timeout=60, tag=达美乐披萨获取token
 [MITM]
 hostname =game.dominos.com.cn
 
