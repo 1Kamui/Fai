@@ -16,9 +16,9 @@
 2.手动完成一次签到,收录活动id
 
 [Script]
-http-response ^https:\/\/(webapi|webapi2)\.qmai\.cn\/web\/seller\/(oauth\/flash-sale-login|account\/login-minp) script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/ncdhy.js, requires-body=true, timeout=60, tag=奶茶获取token
+http-response ^https:\/\/(webapi|webapi2)\.qmai\.cn\/web\/seller\/(oauth\/flash-sale-login|account\/login-minp) script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/ncdhy.js, requires-body=true, timeout=60, tag=奶茶多合一获取token
 
-http-request ^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign) script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/ncdhy.js, requires-body=true, timeout=60, tag=奶茶获取token
+http-request ^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign) script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/ncdhy.js, requires-body=true, timeout=60, tag=奶茶多合一获取token
 
 [MITM]
 hostname = webapi2.qmai.cn,webapi.qmai.cn,qmwebapi.qmai.cn
