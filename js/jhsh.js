@@ -20,9 +20,9 @@
 hostname = yunbusiness.ccb.com
 
 [Script]
-http-request ^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin) tag=建行数据, script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/jhsh.js,requires-body=1
+http-request ^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin) tag=建行生活获取token, script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/jhsh.js,requires-body=1
 
-cron "0 6 * * *" script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/jhsh.js,tag = 建行生活,enable=true
+cron "0 6 * * *" script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/jhsh.js,tag=建行生活, enable=true
 
 
 
