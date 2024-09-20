@@ -7,6 +7,6 @@ arg1 = input,"17 10 * * *",tag=奶茶多合一任务时间
 arg2 = switch,true,tag=奶茶多合一任务开关
 
 [Script]
-cron {arg1} script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, enable= {arg2}, tag=奶茶多合一
+cron {arg1} script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/ncdhy.js, enable= {arg2}, tag=奶茶多合一
 
 [MITM]
