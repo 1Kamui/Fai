@@ -1,6 +1,6 @@
 #!name = 获取cookie/token
 #!desc = 合集
-#!icon = https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/icon/cookie.png
+#!icon = https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/icon/cookie96.png
 
 [Argument]
 arg1 = switch,true,tag=奶茶多合一获取token
