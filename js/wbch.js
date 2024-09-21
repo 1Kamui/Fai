@@ -21,8 +21,8 @@
 【Loon 2.1+ 脚本配置】
 *************************
 [script]
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.js, timeout=600, tag=微博超话
-http-request ^https?://m?api\.weibo\.c(n|om)\/2\/(cardlist|page\/button) script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.cookie.js,requires-body=false, tag=微博超话cookie获取
+cron "1 0 * * *" script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/wbch.js, timeout=600, tag=微博超话
+http-request ^https?://m?api\.weibo\.c(n|om)\/2\/(cardlist|page\/button) script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/wbch.js, requires-body=false, tag=微博超话获取token
 
 
 
