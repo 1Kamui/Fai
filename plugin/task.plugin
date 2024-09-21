@@ -1,6 +1,5 @@
 #!name = 定时任务
 #!desc = 合集
-#!icon = https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/icon/task.png
 
 [Argument]
 arg1 = input,"0 6 * * *",tag=奶茶多合一任务时间
