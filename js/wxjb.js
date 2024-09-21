@@ -14,9 +14,9 @@
 hostname = payapp.weixin.qq.com
 
 [Script]
-http-response https:\/\/payapp\.weixin\.qq\.com\/(coupon-center-user\/home\/login|coupon-center-award\/award\/detail) tag=微信金币获取token,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js,requires-body=1
+http-response https:\/\/payapp\.weixin\.qq\.com\/(coupon-center-user\/home\/login|coupon-center-award\/award\/detail) tag=微信金币获取token,script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/wxjb.js,requires-body=1
 
-cron "0 6 * * *" script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js,tag=微信金币,enable=true
+cron "0 6 * * *" script-path=https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/js/wxjb.js,tag=微信金币,enable=true
 
 
 
