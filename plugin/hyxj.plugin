@@ -5,10 +5,10 @@
 [Rule]
 
 [Rewrite]
-^http://api-ad\.kajicam.com/ad/pop/rule/v2 reject-dict
+^https?:\/\/api4\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements reject
 
 [Script]
 http-response https:\/\/api4\.bybutter\.com\/v4\/* script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/hy.js, requires-body = true
 
 [MITM]
-hostname = api4。bybutter。com
+hostname = api4.bybutter.com
