@@ -30,4 +30,4 @@
 [Script]
 
 [MITM]
-hostname = webappcfg.paas.cmbchina.com,m.ctrip.com,dss0.bdstatic.com,tb1.bdstatic.com,tb2.bdstatic.com,ss0.bdstatic.com,gss0.bdstatic.com,newclient.map.baidu.com,m*.amap.com,optimus-ads.amap.com,api.gongkaoleida.com,sh-gateway.shihuo.cn,static.shihuocdn.cn
+hostname = webappcfg.paas.cmbchina.com,m.ctrip.com,dss0.bdstatic.com,tb1.bdstatic.com,tb2.bdstatic.com,ss0.bdstatic.com,gss0.bdstatic.com,newclient.map.baidu.com,m*.amap.com,optimus-ads.amap.com,api.gongkaoleida.com,sh-gateway.shihuo.cn,static。shihuocdn.cn
