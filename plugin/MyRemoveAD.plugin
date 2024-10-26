@@ -9,25 +9,10 @@
 ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig reject-200
 # > 智行火车票
 ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/scjson\/tripAds reject-dict
-# > 百度地图
-^https?:\/\/dss0\.bdstatic\.com\/-0U0bnSm1A5BphGlnYG\/ reject-200
-^https?:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.(jpg|mp4) reject
-^https?:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*.jpg reject
-^https?:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump reject-img
-^https?:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg reject-200
-^https?:\/\/gss0\.bdstatic\.com\/.+?\/static\/wiseindex\/img\/bd_red_packet\.png reject-img
-# > 高德地图
-^https?:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? reject-dict
-^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ reject
-^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/ reject
 # > 公考雷达
 ^https?:\/\/api\.gongkaoleida\.com\/api\/v2\/ad\/info reject-dict
-# > 识货
-^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/(screen|ad) reject
-^https?:\/\/static\.shihuocdn\.cn\/admin\/imgs/202[0-9]{5}\/[a-z0-9]{32}_513x777\.png reject-200
-^https?:\/\/static\.shihuocdn\.cn\/admin\/imgs/202[0-9]{5}\/[a-z0-9]{32}_750x1624\.png reject-200
 
 [Script]
 
 [MITM]
-hostname = webappcfg.paas.cmbchina.com,m.ctrip.com,dss0.bdstatic.com,tb1.bdstatic.com,tb2.bdstatic.com,ss0.bdstatic.com,gss0.bdstatic.com,newclient.map.baidu.com,m*.amap.com,optimus-ads.amap.com,api.gongkaoleida.com,sh-gateway.shihuo.cn,static。shihuocdn.cn
+hostname = webappcfg.paas.cmbchina.com,m.ctrip.com,api.gongkaoleida.com
