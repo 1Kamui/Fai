@@ -1,0 +1,15 @@
+#!name = 考途
+#!desc = 永久会员
+#!icon = https://raw.githubusercontent.com/1Kamui/Fai/refs/heads/main/icon/kt.jpg
+
+[Rule]
+
+[Rewrite]
+
+[Script]
+http-response ^https://api-service\.tutusouti\.com/appServiceApi/vip/newUserPayVipData script-path=https://raw.githubusercontent.com/SheepFJ/Sheep/refs/heads/main/kaotudaxuesouti/vip.js, requires-body = true
+http-response ^https://api-service\.tutusouti\.com/appServiceApi/video/videoDetail script-path=https://raw.githubusercontent.com/SheepFJ/Sheep/refs/heads/main/kaotudaxuesouti/video.js, requires-body = true
+http-response ^https://api-service\.tutusouti\.com/appServiceApi/account/categoryList script-path=https://raw.githubusercontent.com/SheepFJ/Sheep/refs/heads/main/kaotudaxuesouti/yl.js, requires-body = true
+
+[MITM]
+hostname = api-service.tutusouti.com
